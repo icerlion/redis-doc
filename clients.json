@@ -3,7 +3,7 @@
     "name": "redis-rb",
     "language": "Ruby",
     "repository": "https://github.com/redis/redis-rb",
-    "description": "Very stable and mature client. Install and require the hiredis gem before redis-rb for maximum performances.",
+    "description": "Very stable and mature client. Install and require the hiredis gem before redis-rb for maximum performance.",
     "authors": ["ezmobius", "soveran", "djanowski", "pnoordhuis"],
     "recommended": true,
     "active": true
@@ -174,6 +174,15 @@
     "repository": "https://github.com/keimoon/gore",
     "description": "A full feature redis Client for Go. Supports Pipeline, Transaction, LUA scripting, Pubsub, Connection Pool, Sentinel and client sharding",
     "authors": ["keimoon"],
+    "active": true
+  },
+
+  {
+    "name": "Redis",
+    "language": "Go",
+    "repository": "https://github.com/pascaldekloe/redis",
+    "description": "clean, fully asynchronous, high-performance, low-memory",
+    "authors": [],
     "active": true
   },
 
@@ -1461,7 +1470,7 @@
     "name": "cheprasov/php-redis-client",
     "language": "PHP",
     "repository": "https://github.com/cheprasov/php-redis-client",
-    "description": "Supported PHP client for versions of Redis from 2.6 to 4.0",
+    "description": "Supported PHP client for Redis. PHP ver 5.5 - 7.3 / REDIS ver 2.6 - 5.0",
     "authors": ["cheprasov84"],
     "active": true
   },
@@ -1618,13 +1627,32 @@
     "authors": ["kemtekinay"],
     "active": true
   },
+
+  {
+    "name": "soce-redis",
+    "language": "C++",
+    "url": "https://github.com/wusongwei/soce/tree/master/soce-redis",
+    "repository": "https://github.com/wusongwei/soce/tree/master/soce-redis",
+    "description": "Based on hiredis, accesses the sever(single, sentinel, cluster) with the same interface, supports pipeline and async(by coroutine)",
+    "authors": [],
+    "active": true
+  },
+  {
+    "name": "mini_redis",
+    "language": "Crystal",
+    "url": "http://github.vladfaust.com/mini_redis/",
+    "repository": "https://github.com/vladfaust/mini_redis",
+    "description": "A light-weight low-level Redis client for Crystal",
+    "authors": ["vladfaust"],
+    "active": true
+  },
   
   {
     "name": "FlyRedis",
     "language": "C++",
     "repository": "https://github.com/icerlion/FlyRedis",
     "description": "C++ Redis Client, base on Boost.asio, Easy To Use",
-    "authors": [],
+    "authors": ["icerlion"],
     "active": true
   },
 
@@ -1684,4 +1712,5 @@
     "recommended": true,
     "active": true
   }
+
 ]
